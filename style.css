@@ -27,18 +27,23 @@ a{
     color:white;
 }
 a:hover{
-    background-color: tomato;
-    
+    background-color: #8c6bff;
 }
 
 .nav_main
 {   
-    display: flex;    
+    display: flex; 
+    width: 100%;  
 }
 .nav_main li{
     list-style: none;
     padding-right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+
 .nav_foot
 {
     display: flex;  
@@ -67,6 +72,10 @@ a:hover{
         justify-content: flex-start; 
         width: 100%;
     }
+    #nav_logo_text{
+        text-align: left;
+        width:auto;
+    }
 
     .nav_main{
         display:flex;
@@ -83,6 +92,10 @@ a:hover{
         display: flex;  
 /*        justify-content: center;        */
     }
-    
+    a:hover{
+    width: 100%;
+    background-color: #8c6bff;
+    text-align: center;
+}
     
 }
